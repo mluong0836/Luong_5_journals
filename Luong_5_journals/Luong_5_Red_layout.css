@@ -1,0 +1,53 @@
+body {
+        background-color: #FF381D
+        color: #FF0000
+}
+
+.container {
+        background-color: #FF381 ;
+}
+
+header {
+        background-color: #0000FF;;
+}
+
+h1 {
+        font-family: sans-serif;
+}
+
+nav { 
+        background-color: 086A87 ;
+}
+
+td { 
+        color:
+}
+
+table {
+      
+}
+
+a {
+        color: white;
+        text-decorations: none;
+}
+
+a:hover {
+        color:orange ;
+}
+
+.main {
+        background-color: 58FA58';
+        font-family: sans-serif;
+}
+
+aside {         
+        background-color:  58FA58;;
+}
+
+footer { 
+        background-color: #0000FF;
+        clear: both;
+
+}
+

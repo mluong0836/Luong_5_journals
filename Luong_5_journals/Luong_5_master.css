@@ -1,0 +1,60 @@
+body{
+        margin: 0px
+}
+
+.container {
+        height: 850px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
+}
+
+header {
+        height: 100px;
+        width: 700px;
+}
+
+h1 {
+        font-family: sans-serif;
+        font-size: 52px;
+        margin: 0px;
+        text-align: center;
+}
+
+nav { 
+        height: 50px;
+        width: 700px;
+}
+
+td { 
+        font-family: san-serif;
+        font-size: 35px;
+}
+
+table {
+        width: 700px;
+}
+
+a {
+        text-decorations: none;
+}
+
+.main {
+        float: left;
+        font-family: sans-serif;
+        height: 700px;
+        margin-bottom: 5px;
+        width: 545;
+}
+
+aside {        
+        float: right;
+        height: 595px;
+        width: 150px;
+}
+
+footer { 
+        clear: both; 
+        height: 100px;
+        width: 700px;
+}
