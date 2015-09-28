@@ -1,6 +1,6 @@
 body {
-        background-color: #FF381D
-        color: #FF0000
+        background-color: #FF0000;
+        color: Black
 }
 
 .container {
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-        background-color: #0000FF;;
+        background-color: #9C1717;;
 }
 
 h1 {
@@ -16,11 +16,11 @@ h1 {
 }
 
 nav { 
-        background-color: 086A87 ;
+        background-color:  FFA09D  ;
 }
 
 td { 
-        color:
+        color:Orange
 }
 
 table {
@@ -33,20 +33,20 @@ a {
 }
 
 a:hover {
-        color:orange ;
+        color: Blue ;
 }
 
 .main {
-        background-color: 58FA58';
+        background-color: FF2F00;
         font-family: sans-serif;
 }
 
 aside {         
-        background-color:  58FA58;;
+        background-color:  C55252;;
 }
 
 footer { 
-        background-color: #0000FF;
+        background-color: #902929;
         clear: both;
 
 }
