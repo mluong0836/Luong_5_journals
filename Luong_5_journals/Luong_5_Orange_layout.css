@@ -4,12 +4,13 @@ body {
 }
 
 .container {
-        background-color:  58FA58; ;
+        background-color: FF5618;;
        
 }
 
 header {
         background-color: #FF3800;;
+	color: Black
        
 }
 
@@ -18,7 +19,7 @@ h1 {
 }
 
 nav { 
-        background-color: FA9350 ;
+        background-color: FA9350;
         
 }
 

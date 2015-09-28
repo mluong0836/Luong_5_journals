@@ -28,7 +28,7 @@ nav {
 
 td { 
         font-family: san-serif;
-        font-size: 35px;
+        font-size: 24px;
 }
 
 table {
@@ -49,12 +49,12 @@ a {
 
 aside {        
         float: right;
-        height: 595px;
+        height: 350px;
         width: 150px;
 }
 
 footer { 
         clear: both; 
-        height: 100px;
+        height: 175px;
         width: 700px;
 }
