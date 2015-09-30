@@ -11,20 +11,12 @@ header {
         background-color: #0000FF;;
 }
 
-h1 {
-        
-}
-
 nav { 
         background-color: FDE6FF;
 }
 
 td { 
         color: white;
-}
-
-table {
-        
 }
 
 a {
@@ -45,6 +37,6 @@ aside {
 }
 
 footer { 
-        background-color: #5145FF;
+        background-color: #095FFF;
         clear: both; 
 }
