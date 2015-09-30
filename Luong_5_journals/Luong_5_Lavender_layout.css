@@ -1,6 +1,6 @@
 body {
         background-color: #9A03FF;
-        color: #FF0000
+        color: #2B2D7F;
 }
 
 .container {
@@ -10,12 +10,11 @@ body {
 
 header {
         background-color: #662D8C;;
+        color: #241536;
         
 }
 
-h1 {
-        
-}
+
 
 nav { 
         background-color: B9A7FF;
@@ -27,9 +26,6 @@ td {
        
 }
 
-table {
-        
-}
 
 a {
         color: white;
