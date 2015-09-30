@@ -1,5 +1,6 @@
 body{
         margin: 0px
+        width: 700px;
 }
 
 .container {
@@ -12,11 +13,13 @@ body{
 header {
         height: 100px;
         width: 700px;
+        margin-bottom: 5px;
+        font-size: 90px;
 }
 
 h1 {
         font-family: sans-serif;
-        font-size: 52px;
+        font-size: 62px;
         margin: 0px;
         text-align: center;
 }
@@ -24,6 +27,7 @@ h1 {
 nav { 
         height: 50px;
         width: 700px;
+        margin-bottom: 5px;
 }
 
 td { 
@@ -42,15 +46,16 @@ a {
 .main {
         float: left;
         font-family: sans-serif;
-        height: 700px;
+        height: 569px;
         margin-bottom: 5px;
         width: 545;
 }
 
 aside {        
         float: right;
-        height: 350px;
+        height: 280px;
         width: 150px;
+        margin-bottom: 5px;
 }
 
 footer { 
