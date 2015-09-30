@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-        background-color: FF69B4; ;
+        background-color: #FF69B4; ;
        
 }
 
@@ -13,12 +13,9 @@ header {
         
 }
 
-h1 {
-        
-}
 
 nav { 
-        background-color:  B88AA1 ;
+        background-color:  #B88AA1 ;
         
 }
 
@@ -27,9 +24,6 @@ td {
        
 }
 
-table {
-      
-}
 
 a {
         color: D9487B;
