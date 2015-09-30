@@ -11,21 +11,14 @@ header {
         background-color: #9C1717;;
 }
 
-h1 {
-        font-family: sans-serif;
-}
-
 nav { 
-        background-color:  FFA09D  ;
+        background-color:  #FFA09D  ;
 }
 
 td { 
         color:Orange
 }
 
-table {
-      
-}
 
 a {
         color: white;
@@ -37,12 +30,12 @@ a:hover {
 }
 
 .main {
-        background-color: FF2F00;
-        font-family: sans-serif;
+        background-color: #FF2F00;
+        
 }
 
 aside {         
-        background-color:  C55252;;
+        background-color:  #C55252;;
 }
 
 footer { 
