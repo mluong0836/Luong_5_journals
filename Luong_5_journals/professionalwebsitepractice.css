@@ -1,0 +1,58 @@
+nav {
+    background-color: #303030;
+    width: auto;
+    height: 48px;
+    postion: absolute;
+
+}
+
+.section1 {
+    background-color: #F2F2F2;
+    height: 1667px;
+    width: auto;
+}
+
+.section2 {
+}
+
+.section3 {
+}
+
+.section4 {
+}
+
+.section5 {
+}
+
+.section6 { 
+}
+
+.section7 {
+}
+
+.section8 {
+}
+
+.section9 {
+}
+
+footer {
+}
+
+.navtext {
+    height: 48px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: auto;
+}
+
+.main {
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
