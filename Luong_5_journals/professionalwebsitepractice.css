@@ -91,7 +91,7 @@ h1 {
 
 .cover {
     background-color: #f2f2f2;
-    height: 600px;
+    height: 800px;
     width: auto;
 }
 
@@ -101,7 +101,7 @@ h1 {
 }
 
 .ad {
-    background-image: url(ipad.jpg);
+    background-image: url(ipads_hand.jpeg);
     height: 275px;
     width: 600px;
     margin-left: auto;
@@ -109,7 +109,7 @@ h1 {
 }
 
 footer {
-    height: 500px;
+    height: 1000px;
     width: auto;
     background-color: #f2f2f2;
 }
@@ -165,4 +165,28 @@ footer {
 .connect {
     margin-top: 220px;
     margin-left: 510px;
+}
+
+.ipadexperience {
+    marign-top: 330px;
+}
+
+.appspic {
+    margin-top: 10px;
+}
+
+.adtext {
+
+}
+
+.end {
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 550px;
+}
+
+.footertext {
+    margin-left: 900px;
+    margin-top: -200px;
+    font-size: 40px;
 }
