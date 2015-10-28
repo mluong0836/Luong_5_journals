@@ -190,3 +190,46 @@ footer {
     margin-top: -200px;
     font-size: 40px;
 }
+
+.shop {
+    margin-left: 300px;
+    margin-top: -250px;
+}
+
+.applestore {
+    margin-top: -212;
+    margin-left: 500px;
+}
+
+.education {
+    margin-top: -210px;
+    margin-left: 800px;
+}
+
+.business {
+    margin-top: 0px;
+    margin-left: 800px;
+}
+
+.account {
+    margin-top: -150px;
+    margin-left: 1050px;
+}
+
+.values {
+    margin-top: 0px;
+    margin-left: 1050px;
+}
+
+.ipear {
+    margin-top: -200px;
+    margin-left: 1300px;
+}
+.shoplink {
+    width: 100px;
+    height: 150px;
+}
+
+li {
+    list-style-image: none;
+}
