@@ -33,8 +33,9 @@ nav {
 
 h1 {
     font-family: sans-serif;
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
     margin: 0;
+    padding-top: 10px;
 }
 
 .main {
@@ -68,7 +69,7 @@ h1 {
 }
 
 .fingerprint {
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
     width: auto;
     height: 1000px;
 }
@@ -79,7 +80,7 @@ h1 {
 }
 
 .experience {
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
     height: 1000px;
     width: auto;
 }
@@ -90,7 +91,7 @@ h1 {
 }
 
 .cover {
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
     height: 800px;
     width: auto;
 }
@@ -109,9 +110,9 @@ h1 {
 }
 
 footer {
-    height: 1000px;
+    height: 700px;
     width: auto;
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
 }
 
 .footertext {
@@ -130,6 +131,7 @@ footer {
 .introtext {
     margin-left: 300px;
     margin-right: 300px;
+    margin-top: 50px;
 }
 
 .ipadsize {
@@ -192,38 +194,38 @@ footer {
 }
 
 .shop {
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: -250px;
 }
 
 .applestore {
     margin-top: -212;
-    margin-left: 500px;
+    margin-left: 400px;
 }
 
 .education {
     margin-top: -210px;
-    margin-left: 800px;
+    margin-left: 700px;
 }
 
 .business {
     margin-top: 0px;
-    margin-left: 800px;
+    margin-left: 700px;
 }
 
 .account {
     margin-top: -150px;
-    margin-left: 1050px;
+    margin-left: 950px;
 }
 
 .values {
     margin-top: 0px;
-    margin-left: 1050px;
+    margin-left: 950px;
 }
 
 .ipear {
     margin-top: -200px;
-    margin-left: 1300px;
+    margin-left: 1200px;
 }
 .shoplink {
     width: 100px;
