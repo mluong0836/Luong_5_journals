@@ -4,15 +4,16 @@
     left: 25%;
     border-radius: 3000px;
     background-color: aqua;
+    border: 9px solid #009FFF;
     position: absolute;
 }
 
 .one {
     position: absolute;
-    top: 10%;
+    top: 11%;
     width: 90px;
     height: 90px;
-    left: 450px;
+    left: 24%;
     background-color: #9C7034;
     border-radius: 1000px;
 }
@@ -49,7 +50,7 @@
 
 .five {
     position: absolute;
-    top: 25%;
+    top: 26%;
     width: 90px;
     height: 90px;
     left: 82%;
@@ -60,10 +61,10 @@
 
 .six {
     position: absolute;
-    top: 657px;
+    top: 66%;
     width: 90px;
     height: 90px;
-    left: 1100px;
+    left: 79%;
     background-color: #9C7034;
     border-radius: 1000px;
 }
@@ -73,27 +74,27 @@
     top: 85%;
     width: 90px;
     height: 90px;
-    left: 46%;
+    left: 45%;
     background-color: #9C7034;
     border-radius: 1000px;
 }
 
 .eight {
     position: absolute;
-    top: 880px;
+    top: 80%;
     width: 90px;
     height: 90px;
-    left: 700px;
+    left: 65%;
     background-color: #9C7034;
     border-radius: 1000px;
 }
 
 .nine {
     position: absolute;
-    top: 800px;
+    top: 79.7%;
     width: 90px;
     height: 90px;
-    left: 470px;
+    left: 25%;
     background-color: #9C7034;
     border-radius: 1000px;
 }
@@ -110,20 +111,20 @@
 
 .eleven {
     position: absolute;
-    top: 450px;
+    top: 66%;
     width: 90px;
     height: 90px;
-    left: 250px;
+    left: 12%;
     background-color: #9C7034;
     border-radius: 1000px;
 }
 
 .twelve {
     position: absolute;
-    top: 250px;
+    top: 26%;
     width: 90px;
     height: 90px;
-    left:300px;
+    left:10%;
     background-color: #9C7034;    
     border-radius: 1000px;
 }
@@ -131,13 +132,19 @@
 .circleBase {
   border-radius: 50%;
   behavior: url(PIE.htc); 
-    top: 200px;
+  width: 60px;
+  height: 60px;
+  background: yellow;
+  border: 5px solid red; 
+  margin-top: 418px;
+  margin-left: 410px;
 }
-.type1 {
-    width: 90px;
-    height: 90px;
-    background: yellow;
-    border: 2px solid red; 
-    margin-top: -300px;
-    margin-left: 700px;
+
+.numbers {
+    font-size: 45px;
+    top: 10%;
+    text-align: center;
+   
 }
+
+
