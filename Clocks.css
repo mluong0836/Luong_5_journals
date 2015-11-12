@@ -6,9 +6,19 @@
     background-color: aqua;
     border: 9px solid #009FFF;
     position: absolute;
-    transform: rotate(360deg);
+    animation: run 2s;
+    animation-iteration-count: 1;
 }
 
+@keyframes run{
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+    
 .one {
     position: absolute;
     top: 11%;
@@ -291,7 +301,7 @@
   background: yellow;
   border: 5px solid red; 
   margin-top: 418px;
-  margin-left: 410px;
+  margin-left: 425px;
 }
 
 .numbers {
@@ -299,6 +309,33 @@
     text-align: center; 
 }
 
-.clockhandles {
-    
+.big {
+    background-color: black;
+    width: 200px;
+    height: 20px;
+    margin-top: 18px;
+    margin-left: 30px;
+    border: 9px solid: black;
+    border-radius: 9px;
 }
+
+.long {
+    background-color: black;
+    width: 20px;
+    height: 290px;
+    margin-top: -290px;
+    margin-left: 30px;
+    border-radius: 9px solid: black;
+    border-radius: 9px;
+}
+
+.red {
+    background-color: red;
+    width: 6px;
+    height: 310px;
+    margin-top: -40px;
+    margin-left: 30px;
+    border: 9px solid: red;
+    border-radius: 9px;
+}
+    
