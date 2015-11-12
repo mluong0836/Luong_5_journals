@@ -6,8 +6,19 @@
     background-color: aqua;
     border: 9px solid #009FFF;
     position: absolute;
+    animation: run 2s;
+    animation-iteration-count: 1;
 }
 
+@keyframes run{
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+    
 .one {
     position: absolute;
     top: 11%;
@@ -16,6 +27,19 @@
     left: 24%;
     background-color: #9C7034;
     border-radius: 1000px;
+    border: 4px solid #4F3015;
+    animation: pulse 3s;
+    animation-iteration-count:2;
+    animation-delay: 22s;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #FE8035;
+  }
+  100% {
+    background-color: #9C7034;
+  }
 }
 
 .two {
@@ -26,8 +50,19 @@
     left: 44.7%;
     background-color: #9C7034;
     border-radius: 1000px;
+    border: 4px solid #4F3015;
+    animation: run2 3s;
+    animation-iteration-count: 2;
 }
 
+@keyframes run2 {
+  0% {
+    background-color: #FEDF36;
+  }
+  100% {
+    background-color: #9C7034;
+  }
+}
 .three {
     position: absolute;
     top: 10%;
@@ -36,8 +71,20 @@
     left: 66%;
     background-color: #9C7034;
     border-radius: 1000px;
+    border: 4px solid #4F3015;
+    animation: run3 3s;
+    animation-iteration-count: 2;
+    animation-delay: 2s;
 }
 
+@keyframes run3 {
+  0% {
+    background-color: #FE8035;
+  }
+  100% {
+    background-color: #9C7034;
+  }
+}
 .four {
     position: absolute;
     top: 47%;
@@ -46,8 +93,21 @@
     left: 85%;
     background-color: #9C7034;
     border-radius: 1000px;
+    border: 4px solid #4F3015;
+    animation: run4 3s;
+    animation-iteration-count: 2;
+    animation-delay: 6s;
+
 }
 
+@keyframes run4 {
+  0% {
+    background-color: #1D49FE;
+  }
+  100% {
+    background-color: #9C7034;
+  }
+}
 .five {
     position: absolute;
     top: 26%;
@@ -56,7 +116,20 @@
     left: 82%;
     background-color: #9C7034;
     border-radius: 1000px;
+    border: 4px solid #4F3015;
+    animation: run5 3s;
+    animation-iteration-count: 2;
+    animation-delay: 4s;
     
+}
+
+@keyframes run5 {
+  0% {
+    background-color: #D940FE;
+  }
+  100% {
+    background-color: #9C7034;
+  }
 }
 
 .six {
@@ -67,6 +140,19 @@
     left: 79%;
     background-color: #9C7034;
     border-radius: 1000px;
+    border: 4px solid #4F3015;
+    animation: run6 3s;
+    animation-iteration-count: 2;
+    animation-delay: 8s;
+}
+
+@keyframes run6 {
+  0% {
+    background-color: #2DFE2A;
+  }
+  100% {
+    background-color: #9C7034;
+  }
 }
 
 .seven {
@@ -77,6 +163,19 @@
     left: 45%;
     background-color: #9C7034;
     border-radius: 1000px;
+    border: 4px solid #4F3015;
+    animation: run7 3s;
+    animation-iteration-count: 2;
+    animation-delay: 12s;
+}
+
+@keyframes run7 {
+  0% {
+    background-color: #FE8035;
+  }
+  100% {
+    background-color: #9C7034;
+  }
 }
 
 .eight {
@@ -87,6 +186,19 @@
     left: 65%;
     background-color: #9C7034;
     border-radius: 1000px;
+    border: 4px solid #4F3015;
+    animation: run8 3s;
+    animation-iteration-count: 2;
+    animation-delay: 10s;
+}
+
+@keyframes run8 {
+  0% {
+    background-color: #FEDF36;
+  }
+  100% {
+    background-color: #9C7034;
+  }
 }
 
 .nine {
@@ -97,6 +209,19 @@
     left: 25%;
     background-color: #9C7034;
     border-radius: 1000px;
+    border: 4px solid #4F3015;
+    animation: run9 3s;
+    animation-iteration-count: 2;
+    animation-delay: 14s;
+}
+
+@keyframes run9 {
+  0% {
+    background-color: #D940FE;
+  }
+  100% {
+    background-color: #9C7034;
+  }
 }
 
 .ten {
@@ -107,6 +232,19 @@
     left: 4%;
     background-color: #9C7034;
     border-radius: 1000px;
+    border: 4px solid #4F3015;
+    animation: run10 3s;
+    animation-iteration-count: 2;
+    animation-delay: 18s;
+}
+
+@keyframes run10 {
+  0% {
+    background-color: #2DFE2A;
+  }
+  100% {
+    background-color: #9C7034;
+  }
 }
 
 .eleven {
@@ -117,6 +255,19 @@
     left: 12%;
     background-color: #9C7034;
     border-radius: 1000px;
+    border: 4px solid #4F3015;
+    animation: run11 3s;
+    animation-iteration-count: 2;
+    animation-delay: 16s;
+}
+
+@keyframes run11 {
+  0% {
+    background-color: #1D49FE;
+  }
+  100% {
+    background-color: #9C7034;
+  }
 }
 
 .twelve {
@@ -127,6 +278,19 @@
     left:10%;
     background-color: #9C7034;    
     border-radius: 1000px;
+    border: 4px solid #4F3015;
+    animation: run12 3s;
+    animation-iteration-count: 2;
+    animation-delay: 20s;
+}
+
+@keyframes run12 {
+  0% {
+    background-color: #FEDF36;
+  }
+  100% {
+    background-color: #9C7034;
+  }
 }
 
 .circleBase {
@@ -137,14 +301,41 @@
   background: yellow;
   border: 5px solid red; 
   margin-top: 418px;
-  margin-left: 410px;
+  margin-left: 425px;
 }
 
 .numbers {
-    font-size: 45px;
-    top: 10%;
-    text-align: center;
-   
+    font-size: 30px;
+    text-align: center; 
 }
 
+.big {
+    background-color: black;
+    width: 200px;
+    height: 20px;
+    margin-top: 18px;
+    margin-left: 30px;
+    border: 9px solid: black;
+    border-radius: 9px;
+}
 
+.long {
+    background-color: black;
+    width: 20px;
+    height: 290px;
+    margin-top: -290px;
+    margin-left: 30px;
+    border-radius: 9px solid: black;
+    border-radius: 9px;
+}
+
+.red {
+    background-color: red;
+    width: 6px;
+    height: 310px;
+    margin-top: -40px;
+    margin-left: 30px;
+    border: 9px solid: red;
+    border-radius: 9px;
+}
+    
