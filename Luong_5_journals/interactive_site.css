@@ -1,0 +1,430 @@
+body{
+    background-color: #2B2B2B;
+    width: 1500px;
+    height: 900px;
+}
+
+header {
+    color: red;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.door1 {
+    background-color: #8A5349;
+    width: 155px;
+    height: 280px;
+    //border-radius: 100px;
+    margin-top: 240px;
+    margin-left: 690px;
+    transition-duration: 2s;
+    z-index: 1px;
+
+}
+
+.door1:hover {
+    transform: rotate(360deg);
+    transition-duration: 2s; 
+    background-color: yellow;
+
+}
+
+.door1:hover > :first-child   {
+    transition-duration: 5s;
+    background: yellow; 
+    transform: skewX(360deg);  
+    //transform: rotate(90deg);
+   // transform: rotateY(180deg); 
+
+}
+
+door1:hover > :nth-child(2){
+	background: red; 
+    transform: skewX(360deg);
+
+} 
+
+.door2 {
+    background-color: #43487F;
+    width: 155px;
+    height: 280px;
+    position: absolute;
+    top: 400px;
+    margin-left: 300px;
+    transition-duration: 5s;
+    transform-origin: left;
+    z-index: -1px;
+}
+
+.door2:hover {
+    transition-duration: 3s;
+    transform: rotateY(-85deg);
+}
+
+.door3 {
+    background-color: #206AFF;
+    width: 155px;
+    height: 280px;
+    position: absolute;
+    top: 400px;
+    margin-left: 1080px;
+    transition-duration: 5s;
+    transform-origin: left;
+    z-index: -1px;
+}
+
+.door3:hover {
+    transition-duration: 5s;
+    transform: rotateY(-80deg);
+}
+
+.door4 {
+    background-color: blue;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 90px;
+}
+
+.door5 {
+    background-color: blue;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 90px;
+}
+
+.door6 {
+     background-color: blue;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 90px;
+}
+
+.door7 {
+     background-color: blue;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 90px;
+}
+
+.door8 {
+     background-color: blue;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 90px;
+}
+
+.door9 {
+    background-color: blue;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 90px;
+}
+
+.window1A {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    left: 23px;
+    top: 25px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;
+}
+
+.window1B {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    left: 80px;
+    top: -45px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;
+}
+
+.window1C {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    left: 23px;
+    top: -42px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;
+}
+
+.window1D {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 80px;
+    margin-top: -113px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;
+}
+
+.window1E {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 23px;
+    margin-top: 3px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;
+}
+
+.window1F {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 80px;
+    margin-top: -72px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;   
+    
+}
+
+.doorknob2 {
+    background-color: #CC9419;
+    border-radius: 360px;
+    height: 22px;
+    width: 22px;
+    margin-top: 44px;
+    margin-left: 133px;   
+}
+
+.window2A {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 23px;
+    margin-top: 30px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;
+}
+
+.window2B {
+    position: absolute;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 79px;
+    margin-top: -70px; 
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;
+}
+
+.window2C {
+    position: absolute;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 23px;
+    margin-top: 5px;     
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;
+}
+
+.window2D {
+    position: absolute;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 79px;
+    margin-top: 5px; 
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;
+}
+
+.window2E {
+    position: absolute;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 79px;
+    margin-top: 80px; 
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;
+}
+
+.window2F {
+    position: absolute;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 24px;
+    margin-top: 80px;             
+    outline-color: white;
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;   
+}
+
+.doorknob1 {
+    background-color: #CC9419;
+    border-radius: 360px;
+    height: 22px;
+    width: 22px;
+    margin-top: -107px;
+    margin-left: 133px;       
+}
+  
+.window3A {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 23px;
+    margin-top: 25px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;            
+}
+    
+.window3B {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 81px;
+    margin-top: -72px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;        
+}
+
+.window3C {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 23px;
+    margin-top: 6px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;   
+}
+
+.window3D {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 82px;
+    margin-top: -73px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;   
+}
+
+.window3E {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 23px;
+    margin-top: 7px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;   
+}
+
+.window3F {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 70px;
+    width: 50px;
+    margin-left: 82px;
+    margin-top: -72px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;   
+}
+
+.doorknob3 {
+    background-color: #CC9419;
+    border-radius: 360px;
+    height: 22px;
+    width: 22px;
+    margin-top: -107px;
+    margin-left: 134px;       
+}
+
+.background {
+    
+    z-index: 4px;
+    height: 50px;
+    width: 50px;
+    margin-left: 320px;
+    margin-top: -50px;
+}
+
+.text1 {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    color: purple;
+    margin-top: -320px;
+    margin-left: 40px;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.text2 {
+    text-align: center;
+    font-size: 27px;
+    color: orange;
+    margin-top: -230px;
+    text-decoration: underline;
+    margin-left: -10px;
+}
+
+.text3 {
+    position: fixed;
+    font-size: 25px;
+    color: lightblue;
+    margin-top: -60px;
+    margin-left: 1085px;
+    text-decoration: underline;
+    
+}
