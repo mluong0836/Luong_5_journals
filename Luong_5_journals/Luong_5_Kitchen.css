@@ -1,0 +1,310 @@
+body{
+    background: radial-gradient(#DDF430, #EBDD57, white );
+    width: 1500px;
+    height: 900px;
+}
+
+header {
+    color: red;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 220px;
+}
+
+.door4 { /*Back to main mansion*/
+    background-color: #8A5349;
+    width: 185px;
+    height: 330px;
+    margin-top: 240px;
+    margin-left: 790px;
+    transition-duration: 2s;
+    transform-origin: right; 
+}
+
+.door4:hover {
+    transform: rotateY(-85deg);
+    transition-duration: 3s;
+}
+
+.door5 { /*portal*/
+    background-color: #A1E785;
+    width: 190px;
+    height: 340px;
+    position: absolute;
+    top: 400px;
+    left: 275px;
+    border-radius: 300px; 
+}
+
+.door5:hover {
+    transform: rotate(1080deg);
+    transition-duration: .5s;
+    background-color:  #46B03C;      
+}
+
+.door5:hover > :first-child {
+    transform: rotate(-720deg);
+    transition-duration: .5s;
+    background-color: #A62C1E;
+}
+
+.door5:hover > :nth-child(2) {
+    transform: rotate(1080deg);
+    transition-duration: .5s;
+}
+
+.door5:hover > :nth-child(3) {
+    transform: rotate(-1080deg);
+    transition-duration: .6s;   
+}
+
+.door5:hover > :nth-child(4) {
+    transform: rotate(1080deg);
+    transition-duration: .5s;
+}
+
+.door5:hover > :nth-child(5) {
+    transform: rotate(-720deg);
+    transition-duration: .5s;
+}
+
+.door6 { /* portal*/
+    background-color: #2293B4;
+    width: 190px;
+    height: 340px;
+    position: absolute;
+    top: 400px;
+    left: 1370px;
+    border-radius: 100px;
+    transition-duration: 2s;
+}
+
+.door6:hover {
+    transform: rotate(1080deg);
+    transition-duration: 1s;
+    
+}
+
+.door6:hover > :first-child {
+    transform: rotate(-720deg);
+    transition-duration: 1s;
+}
+
+.door6:hover > :nth-child(2){
+    transform: rotate(720deg);
+    transition-duration: 2s;
+}
+
+.door6:hover > :nth-child(3) {
+    transform: rotate(-1080deg);
+    transition-duration: 2s;
+}
+
+.door6:hover > :nth-child(4) {
+    transform: rotate(360deg);
+    transitiond-duration: 2s;
+}
+
+.door6:hover > :nth-child(5){
+    transform: rotatey(-720deg);
+    transition-duration: 2s;
+}
+.window4A {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    left: 30px;
+    top: 23px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin; 
+}
+
+.window4B {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    left: 97px;
+    top: -60px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;  
+}
+
+.window4C {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    left: 30px;
+    top: -54px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;  
+}
+
+.window4D {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    left: 97px;
+    top: -138px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;   
+}
+
+.window4E {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    left: 30px;
+    top: -130px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;  
+}
+
+.window4F {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    left: 97px;
+    top: -212px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;  
+}
+
+.doorknob4 {
+    position: absolute;
+    background-color: #CC9419;
+    border-radius: 360px;
+    height: 22px;
+    width: 22px;
+    margin-top: -338px;
+    margin-left: 5px;  
+}
+
+.Circle1A {
+    background-color: #A62C1E;
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 300px;   
+}
+
+.Circle1B {
+    background-color: purple;
+    width: 110px;
+    height: 260px;
+    position: relative;
+    top: 39px;
+    left: 39px;
+    border-radius: 300px;   
+}
+
+.Circle1C {
+    background-color: #1A7B99;
+    width: 70px;
+    height: 220px;
+    position: relative;
+    top: -200px;
+    left: 57px;
+    border-radius: 300px;  
+}
+
+.Circle1D {
+    background-color: #A68C28;
+    width: 30px;
+    height: 180px;
+    position: relative;
+    top: -400px;
+    left: 77px;
+    border-radius: 300px;    
+}
+
+.Circle1E {
+    background-color: #00B01B;
+    width: 10px;
+    height: 140px;
+    position: relative;
+    top: -560px;
+    left: 87px;
+    border-radius: 300px;   
+}
+
+.Circle2A {
+    background-color: #A62C1E;
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 300px;      
+}
+
+.Circle2B {
+    background-color: purple;
+    width: 110px;
+    height: 260px;
+    position: relative;
+    top: 39px;
+    left: 39px;
+    border-radius: 300px;      
+}
+
+.Circle2C {
+    background-color: #6282E7;
+    width: 70px;
+    height: 220px;
+    position: relative;
+    top: -200px;
+    left: 57px;
+    border-radius: 300px;    
+}
+
+.Circle2D {
+    background-color: #DC7EEB;
+    width: 30px;
+    height: 180px;
+    position: relative;
+    top: -400px;
+    left: 77px;
+    border-radius: 300px;    
+}
+
+.Circle2E {
+    background-color: #BD952A;
+    width: 10px;
+    height: 140px;
+    position: relative;
+    top: -560px;
+    left: 87px;
+    border-radius: 300px;     
+}
+
+backtomansion {
+    
+    
+    
+}
+
+
+
+
+
