@@ -19,23 +19,32 @@ header {
     top: 420px;
     margin-left: 770px;
     transition-duration: 5s;
-    transform-origin: left;
+    transform-origin: right;
+}
+
+.door7:hover {
+    transition-duration: 5s;
+    transform: rotateY(-85deg);
 }
 
 .door8 { /* portal */
     background-color: blue;
-    width: 40px;
-    height: 50px;
+    width: 185px;
+    height: 340px;
     position: absolute;
-    top: 90px;
+    top: 420px;
+    margin-left: 250px;
+    transition-duration: 5s;  
 }
 
 .door9 { /* portal */
     background-color: blue;
-    width: 40px;
-    height: 50px;
+    width: 185px;
+    height: 340px;
     position: absolute;
-    top: 90px;
+    top: 420px;
+    margin-left: 1260px;
+    transition-duration: 5s;  
 }
 
 .window7A {
@@ -126,82 +135,203 @@ header {
     margin-left: 1px;  
 }
 
-.Circle8A {
-    
-    
-    
+.window8A {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 29px;
+    margin-top: 30px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;       
 }
 
-.CIrcle8B {
-    
-    
-    
-    
+.window8B {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 29px;
+    margin-top: 7px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;        
 }
 
-.Circle8C {
-    
-    
-    
-    
+.window8C {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 29px;
+    margin-top: 7px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;    
 }
 
-.Circle8D {
-    
-    
-    
+.window8D {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 98px;
+    margin-top: -260px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;    
 }
 
-.Circle8E {
-    
-    
-    
-    
+.window8E {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 98px;
+    margin-top: 7px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;       
 }
 
-.Circle8F {
-    
-    
-    
+.window8F {
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 98px;
+    margin-top: 7px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;        
+}
+
+.doorknob8 {
+    background-color: #CC9419;
+    border-radius: 360px;
+    height: 25px;
+    width: 25px;
+    margin-top: -120px;
+    margin-left: 161px;        
 }
 
 .Circle9A {
-    
-    
-    
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 29px;
+    margin-top: 30px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;      
 }
 
 .Circle9B {
-    
-    
-    
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 29px;
+    margin-top: 7px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;   
 }
 
 .Circle9C {
-    
-    
-    
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 29px;
+    margin-top: 7px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;    
 }
 
 .Circle9D {
-    
-    
-    
-    
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 98px;
+    margin-top: -260px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;   
 }
 
 .Circle9E {
-    
-    
-    
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 98px;
+    margin-top: 7px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;    
 }
 
 .Circle9F {
-    
-    
-    
-    
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 98px;
+    margin-top: 7px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;    
 }
+
+.doorknob9 {
+    background-color: #CC9419;
+    border-radius: 360px;
+    height: 25px;
+    width: 25px;
+    margin-top: -120px;
+    margin-left: 161px;      
+}
+
+.textlivingroom {
+    font-size: 30px;
+    margin-top: 220px;
+    margin-left: 720px;
+    color: red;
+}
+
+.textexplained1 {
+    font-size: 30px;
+    margin-top: -240px;
+    left: 60px;
+    color: blue;
+    text-align: center;
+}
+
+.textexplained2 {
+    font-size: 30px;   
+    margin-top: -270px;
+    margin-left: 50px;
+    color: brown;
+    text-align: left;
+}
+
 
 
 
