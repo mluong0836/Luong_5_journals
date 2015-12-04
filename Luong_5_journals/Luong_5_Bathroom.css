@@ -14,91 +14,251 @@ header {
 }
 
 .door10 {
-    
+    background-color: #A1E785;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 460px;
+    left: 180px;
+    border-radius: 300px; 
+    transition-duration: 10s;
+}
+
+.door10:hover {
+    transition-duration: 7s;
+    transform: scale(5.5);
 }
 
 .door11 {
-    
+    background-color: #206AFF;
+    width: 185px;
+    height: 340px;
+    position: absolute;
+    top: 440px;
+    margin-left: 790px;
+    transition-duration: 5s;
+    transform-origin: right;
+}
+
+.door11:hover {
+    transition-duration: 5s;
+    transform: rotateY(-85deg);
 }
 
 .door12 {
-    
+    background: #8946C2;
+    width: 185px;
+    height: 340px;
+    position: absolute;
+    top: 440px;
+    left: 1400px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-style: groove;
+    transition-duration: 8s;
 }
 
 .Circle10A {
-    
+    position: relative;
+    background: #87490C;
+    height: 60px;
+    width: 10px;
+    margin-top: 160px;
+    margin-left: 120px;
 }
 
 .Circle10B {
-    
+    position: relative;
+    background: #87490C;
+    height: 10px;
+    width: 60px;
+    margin-top: 0px;
+    margin-left: 120px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 40px;
 }
 
 .Circle10C {
-    
+    position: relative;
+    background: #87490C;
+    height: 60px;
+    width: 10px;
+    margin-top: -70px;
+    margin-left: 170px;
 }
 
 .Circle10D {
-    
+    position: relative;
+    background: #2D6E34;
+    height: 7px;
+    width: 300px;
+    margin-top: -66px;
 }
 
 .Circle10E {
+    position: relative;
+    background: #873A3A;
+    height: 100px;
+    width: 150px;
+    margin-top: -120px;
+    margin-left: 75px;
     
 }
 
 .Circle10F {
-    
+    position: relative;
+    background: #2B2B2B;
+    height: 70px;
+    width: 120px;
+    margin-top: -85px;
+    margin-left: 89px;
+}
+
+.Circle10G {
+    position: relative;
+    background: #873A3A;
+    height: 70px;
+    width: 10px;
+    margin-top: -70px;
+    margin-left: 145px;
 }
 
 .window11A {
-    
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 26px;
+    margin-top: 30px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;  
 }
 
 .window11B {
-    
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 26px;
+    margin-top: 5px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin; 
 }
 
 .window11C {
-    
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 26px;
+    margin-top: 5px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin; 
 }
 
 .window11D {
-    
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 93px;
+    margin-top: -257px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;   
 }
 
 .window11E {
-    
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 93px;
+    margin-top: 4px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;  
 }
 
 .window11F {
-    
+    position: relative;
+    background-color: #2B2B2B;
+    height: 80px;
+    width: 60px;
+    margin-left: 93px;
+    margin-top: 5px;  
+    border-style: solid;
+    border-spacing: 1px;
+    border-color: #6C4A87;
+    border-width: thin;  
 }
 
 .doorknob11 {
-    
+    background-color: #CC9419;
+    border-radius: 360px;
+    height: 25px;
+    width: 25px;
+    margin-top: -120px;
+    margin-left: 1px;  
 }
 
 .Circle12A {
-    
+    background: blue;
+    width: 165px;
+    height: 300px;
+    position: relative;
+    top: 280px;
+    left: 1399px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-style: groove;
+    transition-duration: 8s;
 }
 
 .Circle12B {
-    
+    background: yellow;
+    width: 135px;
+    height: 270px;
+    position: relative;
+    top: -8px;
+    left: 1413px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-style: groove;
+    transition-duration: 8s;  
 }
 
 .Circle12C {
-    
+    position: relative;
+    background: #4777B2;
+    height: 120px;
+    width: 120px;
+    margin-top: -205px;
+    margin-left: 1426px;  
 }
 
 .Circle12D {
-    
-}
-
-.Circle12E {
-    
-}
-
-.Circle12F {
-    
+    position: relative;
+    background: #1D7F68;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    margin-top: -94px;
+    margin-left: 1455px;
 }
 
 
