@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title> Drop-Down Menu </title>
+                <meta name="keywords" content="d22 is awesome; ninja">
+                <meta name="description" content="">
+                <link rel="stylesheet" type="text/css" href="Luong_5_dropdown.css">
+            
+                <!-- dd menu -->
+<script type="text/javascript">
+<!--
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+// -->
+</script>
+
+</head>
+<body>
+
+<h1>DropDown Menu</h1>
+
+<p>This menu can be located anywhere on a page:</p>
+
+<ul id="sddm">
+	<li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Macs</a>
+		<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="./Luong_5_macs/./Luong_5_iMacs.html">iMacs</a>
+		<a href="./Luong_5_macs/./Luong_5_MacBook.html">MacBook</a>
+		<a href="./Luong_5_macs/./Luong_5_MacBook_Air.html">MacBook Air</a>
+		<a href="./Luong_5_macs/./Luong_5_Apple_keyboards.html">Apple keyboard</a>
+		<a href="./Luong_5_macs/./Luong_5_Apple_mouse.html">Apple Mouse</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Music</a>
+		<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="./Luong_5_music/./Luong_5_iTunes.html">iTunes</a>
+		<a href="./Luong_5_music/./Luong_5_iPod.html">iPod</a>
+		<a href="./Luong_5_music/./Luong_5_Gift_cards.html">Gift Cards</a>
+		<a href="./Luong_5_music/./Luong_5_monthly_trial.html">Monthly Trial</a>
+        <a href="./Luong_5_music/./Luong_5_Speakers.html">Speakers</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">Tablets</a>
+		<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="./Luong_5_Tablets/./Luong_5_ipad_pro.html">iPad Pro</a>
+		<a href="./Luong_5_Tablets/./Luong_5_ipad_mini_4.html">iPad mini 4</a>
+        <a href="./Luong_5_Tablets/./Luong_5_iPad_Air_2.html">iPad Air 2</a>
+        <a href="./Luong_5_Tablets/./Luong_5_Gifts.html">Gifts</a>
+        <a href="./Luong_5_Tablets/./Luong_5_Smart_accessories.html">Smart Accesories</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">About Apple</a>
+		<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="./Luong_5_About_Apple/./Luong_5_Apple_info.html">Apple Info</a>
+		<a href="./Luong_5_About_Apple/./Luong_5_job_opportunities.html">Job Opportunities</a>
+        <a href="./Luong_5_About_Apple/./Luong_5_investors.html">Investors</a>
+        <a href="./Luong_5_About_Apple/./Luong_5_Contact_Apple.html">Contact Apple</a>
+        <a href="./Luong_5_About_Apple/./Luong_5_Events.html">Events</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">Support</a>
+		<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="./Luong_5_Support/./Luong_5_Technical_issues.html">Technical Issues</a>
+		<a href="./Luong_5_Support/./Luong_5_Ordering.html">Ordering</a>
+		<a href="./Luong_5_Support/./Luong_5_Redeem.html">Redeem</a>
+        <a href="./Luong_5_Support/./Luong_5_Apple_ID.html">Apple ID</a>
+        <a href="./Luong_5_Support/./Luong_5_Contact_US.html">Contact Us</a>
+		</div>
+	</li>
+</ul>
+<div style="clear:both"></div>
+
+<div style="clear:both"></div>
+
+</body>
+</html>
