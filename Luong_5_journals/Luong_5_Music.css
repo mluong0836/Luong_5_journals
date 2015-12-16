@@ -1,0 +1,95 @@
+body{
+     height: 700px;
+     width: 1500px;
+}
+
+header {
+    color: #C940C1;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 80px;
+    background-color: #FFD5AB;
+    width: 1660px;
+}
+
+h1 {
+    color: #436887;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 60px;
+    margin-left: 400px;
+    margin-right: 400px; 
+}
+
+.intro {
+    background-color: #DEE4C0;
+    height: 1000px;
+    width: 1660px;
+    margin-left: 2;
+    position: absolute;
+}
+
+.home_intro {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 410px;
+}
+
+.text {
+    text-align: center;
+    font-size: 20px;
+    color: #8C59C9;
+    margin-left: 500px;
+    margin-right: 510px;
+    margin-top: 60px;
+}
+
+.home_intro3 {
+    margin-top: 90px;   
+    margin-left: 120px;
+}
+
+.explain {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    color: #7A096A;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.me {
+    position: absolute;
+    text-align: center;
+    margin-top: -267px;
+    font-size: 25px;
+    color: darkcyan;
+    margin-left: 930px;
+    margin-right: 370px;
+}
+
+.identity {
+    text-align: center;
+    margin-top: 330px;
+    font-size: 37px;
+    color:darkslategrey;
+    margin-right: -620px;
+}
+
+.products {
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 100px;
+}
+
+.new {
+    position: absolute;
+    margin-top: -425px;
+    right: 100px;
+}
+
+
+
+
+
