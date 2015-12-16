@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <link href="Luong_5_Technical_issues.css" type="text/css" rel="stylesheet">
+                <meta charset="utf-8">
+                <link href="../Luong_5_dropdown.css" type="text/css" rel="stylesheet">
+                <title>Technicians</title>
+                <script type="text/javascript">
+<!--
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+// -->
+</script>
+
+        </head>
+        <body>
+                <header> Technical Aid </header>
+                <ul id="sddm">
+	<li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Macs</a>
+		<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="../Luong_5_macs/./Luong_5_iMacs.html">iMacs</a>
+		<a href="../Luong_5_macs/./Luong_5_MacBook.html">MacBook</a>
+		<a href="../Luong_5_macs/./Luong_5_MacBook_Air.html">MacBook Air</a>
+		<a href="../Luong_5_macs/./Luong_5_Apple_keyboards.html">Apple keyboard</a>
+		<a href="../Luong_5_macs/./Luong_5_Apple_mouse.html">Apple Mouse</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Music</a>
+		<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="../Luong_5_music/./Luong_5_iTunes.html">iTunes</a>
+		<a href="../Luong_5_music/./Luong_5_iPod.html">iPod</a>
+		<a href="../Luong_5_music/./Luong_5_Gift_cards.html">Gift Cards</a>
+		<a href="../Luong_5_music/./Luong_5_monthly_trial.html">Monthly Trial</a>
+        <a href="../Luong_5_music/./Luong_5_Speakers.html">Speakers</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">Tablets</a>
+		<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="../Luong_5_Tablets/./Luong_5_ipad_pro.html">iPad Pro</a>
+		<a href="../Luong_5_Tablets/./Luong_5_ipad_mini_4.html">iPad mini 4</a>
+        <a href="../Luong_5_Tablets/./Luong_5_iPad_Air_2.html">iPad Air 2</a>
+        <a href="../Luong_5_Tablets/./Luong_5_Gifts.html">Gifts</a>
+        <a href="../Luong_5_Tablets/./Luong_5_Smart_accessories.html">Smart Accesories</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">About Apple</a>
+		<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="../Luong_5_About_Apple/./Luong_5_Apple_info.html">Apple Info</a>
+		<a href="../Luong_5_About_Apple/./Luong_5_job_opportunities.html">Job Opportunities</a>
+        <a href="../Luong_5_About_Apple/./Luong_5_investors.html">Investors</a>
+        <a href="../Luong_5_About_Apple/./Luong_5_Contact_Apple.html">Contact Apple</a>
+        <a href="../Luong_5_About_Apple/./Luong_5_Events.html">Events</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">Support</a>
+		<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="../Luong_5_Support/./Luong_5_Technical_issues.html">Technical Issues</a>
+		<a href="../Luong_5_Support/./Luong_5_Ordering.html">Ordering</a>
+		<a href="../Luong_5_Support/./Luong_5_Redeem.html">Redeem</a>
+        <a href="../Luong_5_Support/./Luong_5_Apple_ID.html">Apple ID</a>
+        <a href="../Luong_5_Support/./Luong_5_Contact_US.html">Contact Us</a>
+		</div>
+	</li>
+</ul>
+<div style="clear:both"></div>
+
+<div style="clear:both"></div>
+            
+                    <section class="intro">
+                        
+                        <h1>Is setting up your computer or device frustrating? Well, we all have those days. </h1>
+                
+                        <p class="text">Don't worry Apple has got you covered. We understand that some people are not able to independently set up their own networks, accounts, security, etc...This is why we have included a toll-free number, which will provide you the dates of our technicians. Furthermore, it's free. So if you are lazy, go ahead and call this number now!</p>
+                        
+                        
+                        <p class="explain">There are two ways to accomplish this task. If already have an Apple ID, then we strongly suggest that you call this number to schedule your appointment.</p>
+                        <p class="suggestion">Call (210) 111-347</p>
+                        
+                        <p class="otherwise">However, if you don't have an apple ID or don't remember if you have one, please call this number:</p> 
+                        
+                        <p class="advice">Call (210) 222-341</p>
+                        
+                        <img class="display" src="phone.png">
+                        
+                        <img class="part2" src="phone_2.png">
+                        
+                    </section>           
+        </body>
+</html>
