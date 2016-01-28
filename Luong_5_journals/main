@@ -1,0 +1,98 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Untitled Document</title>
+        <link href="boilerplate.css" rel="stylesheet" type="text/css">
+        <link href="layout.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+        <script src="respond.min.js"></script>
+    </head>
+    <body>
+        
+        <header><b>DataCon</b></header>
+        
+        <div id="banner">
+            
+            <div id="banner_backdrop"></div>
+            <div id="banner_content">
+            
+                <p class="intro_story"> Fly above the horizon like <i>Dataman</i> .</p>
+                <img class="dataman" src="dataman_flying.png">
+            
+            </div>
+        
+        </div>
+        
+        <div class="gridContainer clearfix">     
+            
+            <div id="LayoutDiv1">
+                
+                <h1> <b> REPRESENT </b> </h1>
+            
+            </div>
+            
+            <nav class="bar">
+                
+                <tr>
+                    <a href="./About/Luong_5_about.html"><td>About</td></a>
+                    <a href="index.html"><td>Home</td></a>
+                    <a href="./Games/Luong_5_games.html"><td>Games</td></a>
+                
+                </tr>
+            
+            </nav>
+            
+        </div>
+        
+        <div class="part2">
+            
+            <aside class ="test1"> 
+            
+                <img class="data2" src="crossed.png">
+            
+            </aside>
+            
+            <div class="description">
+            
+                <p class="explain"> Welcome to the best magnet program out there <b class="bold">DATA</b>. DataCon<br> 
+                                    will bring your imagination in a whole new level as different video games will <br>
+                                    give you a new video game experience that you will never forget. Navigate through <br>
+                                    these pages to understand more about these upcoming events and more details on games. </p>
+                
+            </div>
+        
+        </div>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
