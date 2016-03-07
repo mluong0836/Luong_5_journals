@@ -1,0 +1,28 @@
+body {
+    background-color: #AA7AFF;
+}
+
+.scoreyes {
+    text-align: center;
+    color: green;
+    background-color: chartreuse;
+}
+
+.scoreno {
+    text-align: center;
+    color: red;
+    background-color: #FF4239;
+}
+
+.redoyes {
+    text-align: center;
+    color: green;
+    background-color: yellowgreen;
+}
+
+.redono {
+    text-align: center;
+    color: red;
+    background-color: #FF4239;
+}
+    
