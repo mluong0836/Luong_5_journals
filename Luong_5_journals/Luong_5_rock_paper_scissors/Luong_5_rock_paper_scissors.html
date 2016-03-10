@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Micheal's Rock Paper Scissors Game!</title>
+        <meta charset=utf-8>
+        <link href="Luong_5_rock_paper_scissors.css" rel="stylesheet" type="text/css">
+    </head>
+    <body id="background">
+        
+        <header id="title">ROCK PAPER SCISSORS </header>
+        
+        <script type="text/javascript" src="Luong_5_rock_paper_scissors.js"></script>
+        
+        <article id="for_rock">
+            
+            <button id="rock" onclick="Player(0)">ROCK</button>
+            <img class="rocky" src="rock.png" width="110px" height="120px">
+            
+        </article>
+        
+        <article id="for_paper">
+            
+            <button id = "paper" onclick="Player(1)">PAPER</button>
+            <img class = "papery" src="paper.png" width="100px" height="120px">
+            
+        </article>
+        
+        <article id="for_scissors">
+        
+            <button id="Scissors" onclick="Player(2)">SCISSORS</button>
+            <img class="sci" src="scissors.png" width="220px" height="130px">
+            
+        </article>
+        
+        <div class="review">
+        
+            <button id="crossexamine" onclick="Computer()">GO!</button>
+        
+        </div>
+        
+        <div class="going">
+        
+            <button id="switching" onclick="Change()">Switch</button>
+            
+        </div>
+        
+        <section id="playerside">
+
+        </section>
+        
+        <section id="computerside">
+        
+        </section>
+        
+        <aside id="com1">
+        
+            <img class="cr" src="">
+            <caption>ROCK</caption>
+        
+        </aside>
+        
+        <aside id="com2">
+        
+            <img class="cp" src="">
+            <caption>PAPER</caption>
+        
+        </aside>
+        
+        <aside id="com3">
+        
+            <img class="cs" src="">
+            <caption>SCISSORS</caption>
+            
+        </aside>
+        
+        <h3 class="vs">VS</h3>
+        
+        <div id="pscore"></div>
+        
+        <div id="cscore"></div>
+        
+        <footer>
+            
+            <p> Thank you for playing rock paper scissors. Please feel free to reload the page to continue playing.</p>
+            
+        </footer>
+        
+    </body>
+</html>

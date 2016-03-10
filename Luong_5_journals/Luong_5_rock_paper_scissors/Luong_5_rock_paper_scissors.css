@@ -1,0 +1,196 @@
+body {
+    height: 1050px;
+    width: 1850px;
+    background-color: peru;
+}
+
+header {
+    color: rebeccapurple;
+    top: 10%;
+    position: absolute;
+    left: 25%;
+    font-size: 80px;
+    text-align: center;
+}
+
+#for_rock {
+    height: 220px;
+    width: 220px;
+    background-color: aquamarine;
+    color: orange;
+    position: absolute;
+    left: 4%;
+    top: 70%;
+}
+
+#for_paper {
+    height: 220px;
+    width: 220px;
+    background-color: rebeccapurple;
+    color: pink;
+    position: absolute;
+    left: 16.5%;
+    top: 70%;
+}
+
+#for_scissors {
+    height: 220px;
+    width: 220px;
+    background-color: olivedrab;
+    color: lavender;
+    position: absolute;
+    left: 28.9%;
+    top: 70%;
+}
+
+#com1 {
+    height: 220px;
+    width: 220px;
+    background-color: aqua;
+    color: rebeccapurple;
+    position: relative;
+    left: 58%;
+    top: 68%;
+    font-size: 60px;
+    text-align: center;
+}
+
+#com2 {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    background-color: burlywood;
+    color: palegreen;
+    left: 70.8%;
+    top: 47%;
+    font-size: 60px;
+    text-align: center;
+}
+
+#com3 {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    background-color: darkorchid;
+    color: orange;
+    text-align: center;
+    font-size: 45px;
+    left: 83.6%;
+    top: 26%;
+}
+
+#rock {
+    position: relative;
+    top: 70%;
+    height: 45px;
+    width: 100px;
+    left: 27.4%;
+}
+
+#paper {
+    position: relative;
+    top: 70%;
+    height: 45px;
+    width: 100px;
+    left: 27.4%;
+}
+
+#Scissors {
+    position: relative;
+    top: 70%;
+    height: 45px;
+    width: 100px;
+    left: 27.4%;
+}
+
+#playerside {
+    position: absolute;
+    top: 24%;
+    left: 10%;
+    height: 450px;
+    width: 450px; 
+    background-color: yellow;
+    background-image: url(question.png);
+}
+
+#computerside {
+    position: absolute;
+    top: 24%;
+    right: 10%;
+    height: 450px;
+    width: 450px;
+    background-color: firebrick;
+    background-image: url(question.png);
+}
+
+#pchoice {
+    left: 3%;
+    position: relative;
+}
+    
+.rocky {
+    position: absolute;
+    left: 23%;
+    top: 9%;
+}
+
+.papery {
+    position: absolute;
+    left: 28%;
+    top: 9%;
+}
+
+.sci {
+    position: relative;
+    left: 1%;
+    top: -14%;
+}
+
+footer {
+    height: 100px;
+    width: 1700px;;
+    background-color: rebeccapurple;
+    position: relative;
+    bottom: 45%;
+    left: 4%;
+    font-size: 40px;
+    text-align: center;
+    color: orange;
+}
+
+h3 {
+    font-size: 260px;
+    color: crimson;
+    text-align: center;
+    top: -60%;
+    position: relative;
+}
+
+#crossexamine {
+    position: absolute;
+    top: 53%;
+    left: 38%;
+    height: 105px;
+    width: 105px;
+    border-radius: 50px;
+    color: orange;
+    font-size: 30px;
+}
+
+#switching {
+    position: absolute;
+    top: 53%;
+    right: 38%;
+    border-radius: 50%;
+    height: 105px;
+    width: 105px;
+    color: blue;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
