@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <title> Journal 0407 </title>
+      </head>
+      <body>
+           <p>      Through the individual projects such as the Tree, House, and checkerboard, I able to grasp </br>
+               a lot more about Canvas, Javascript, and Algorithms. For instance, in Javascript, I understood the </br>
+               significance of modulo, especially within a for loop. When you use modulo it divides a certain number by </br>
+               the input that you asked for and will search for the remainder. Therfore, modulo <i> (%) </i> is a mathematical operation </br>
+               for finding the remainders after a division operation has occurred. For example, 50 % 2 === 0 will find the quotients </br>
+               that have a remainder of 0; thus, an even number in simple terms. This operation can be advatageous in algorithmic
+               </br> art because you are able to draw certain shapes at certain times when the condition is met. EX:
+               for(i = 0; i < 50; i++) {     </br>
+                    if(i % 2 === 1) {   </br>
+                        ctx.fillRect(i,i, 50, 50);    </br>
+                      }    </br>
+                }    </br>
+                As you can see, this enables you to draw squares at certain intervals rather than code each individual one.</br>
+                
+                      Another lesson that I have learned is related to Canvas. I found out why it was necessary to include </b> 
+                                          var c = document.getElementById("myCanvas");     
+                                          ctx = c.getContext("2d");
+                <b> </br>. It turns out that this creates a global variable that retrieves the HTML id "myCanvas"; thus enabling </br>
+                the designer to actually interact with the HTML canvas element. The second line where in gets the context is </br>
+                necessary because this creates a 2D context that allows you to draw on the canvas. Without these codes, your </br>
+                program would be broken. As you can see, this led me to the conclusion that anything drawn on the canvas </br>
+                would be only visible to the set height and width and will not overlap. Therefore, to create my house with </br>
+                particles, I had to screenshot the coded house and crop it to where it would look like a backgroundimage. </br>
+                Next, I overlaid my house as a background and put the actual canvas drawing on top with clearRect and transparent
+                </br> property. Thus, the magic is present that seems to show two overlaid canvases. </br> </br>
+                
+                      Finally, I have learned several features that have enabled me to understand algoritms and fractual art. </br>
+                fractual art looks complicated because meticuolous planning is involved even though the visual looks like shapes thrown </br>
+                together. Therefore, people who understand randomness and is good at tinkering is able to create more complicated </br>
+                "Picasso" -like art. I have concluded that algorithms are important because they are the structure and rules (codes), </br>
+                which enables intricate dsigns. No wonder people call i algorithmic art. It's visual art that follows a set drawing pattern
+                set by the fomulas that the designers inputted. To make things simplier take this example in consideration:
+                
+                
+                            var cxt=c.getContext("2d");
+                            var centerX = 150;
+                            var centerY = 150;
+                            cxt.moveTo(centerX, centerY);
+    
+                            var gap = 1.8; // increase this for spacing between spiral lines        
+                            var STEPS_PER_ROTATION = 60; // increasing this makes the curve smoother
+    
+                            var increment = 2*Math.PI/STEPS_PER_ROTATION;		
+                            var theta = increment;
+                            while( theta < 20*Math.PI) {
+                                var newX = centerX + theta * Math.cos(theta) * gap; 
+                                var newY = centerY + theta * Math.sin(theta) * gap; 
+                                cxt.lineTo(newX, newY);
+                                theta = theta + increment;
+                            }
+                This represents a meticuolous formula to create a spiral effect which has a pattern even though it is 
+                random swirls put together. </p>
+        </body>
+  </html>
+                
+                
+            
