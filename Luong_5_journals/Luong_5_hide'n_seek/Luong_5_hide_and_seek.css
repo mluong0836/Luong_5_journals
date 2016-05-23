@@ -1,0 +1,77 @@
+body {
+    background-image: url(ocean.png);
+}
+
+#q {
+    margin-top: 15%;
+}
+
+#d {
+    top: 50%;
+}
+
+#scoreboard {
+    position: relative;
+    margin-top: -62%;
+    height: 150px;
+    width: auto;
+    background-color: antiquewhite; 
+}
+
+.turns {
+    position: relative;
+    height: 100px;
+    width: 400px;
+    top: 25px;
+    left: 25px;
+    background-color: purple;
+    color: orange;
+    font-size: 70px;
+}
+
+.score {
+    position: relative;
+    height: 100px;
+    width: 400px;
+    top: -75px;
+    left: 35%;
+    background-color: blue;
+    color: red;
+    font-size: 70px;
+}
+
+.total {
+    position: relative;
+    height: 100px;
+    width: 400px;
+    top: -175px;
+    left: 70%;
+    background-color: pink;
+    color: dodgerblue;
+    font-size: 70px;
+}
+
+.hints {
+    background-color: darksalmon;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 10.3%;
+    left: 63%;
+}
+
+#bhints {
+    position: relative;
+    background-color: crimson;
+    height: 50px;
+    width: auto;
+    border-radius: 100px;
+    top: 18%;
+    left: 17%;
+}
+
+
+
+
+
+
